@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+header {
+    font-family: 'Sriracha', cursive;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-weight: bolder;   
+}
+
+header p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    width: auto;
+    margin: 10px 0px 10px 0px;
+    padding: 30px 50px 30px 20px;
+}
+
+main p {
+    line-height: 30px;
+}
+
+div {
+    padding: 20px 0px 20px 10px;
+}
+
+div#flor {
+    color: white;
+    height: 400px;
+    width: auto;
+    padding-top: 20px;
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#caixa-flor {
+    background-color: rgba(0, 0, 0, 0.327);
+    height: 250px;
+    width: 250px;
+}
+
+div#papel {
+    color: black;
+    height: 200px;
+    width: auto;
+    background-image: url(imagens/background002.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
